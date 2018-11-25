@@ -1,0 +1,6 @@
+"Benchmark","Mode","Threads","Samples","Score","Score Error (99,9%)","Unit"
+"ru.sbt.mipt.multiprocessor_prog.counters.Benchmarks.syn1","thrpt",1,10,"32170,504984","351,764068","ops/s"
+"ru.sbt.mipt.multiprocessor_prog.counters.Benchmarks.syn16","thrpt",16,10,"16783,984493","348,169466","ops/s"
+"ru.sbt.mipt.multiprocessor_prog.counters.Benchmarks.syn2","thrpt",2,10,"15578,471006","929,694440","ops/s"
+"ru.sbt.mipt.multiprocessor_prog.counters.Benchmarks.syn4","thrpt",4,10,"17761,298301","1184,333682","ops/s"
+"ru.sbt.mipt.multiprocessor_prog.counters.Benchmarks.syn8","thrpt",8,10,"17617,088793","1062,378860","ops/s"
