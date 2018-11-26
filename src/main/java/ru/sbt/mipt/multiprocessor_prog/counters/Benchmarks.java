@@ -8,7 +8,7 @@ import ru.sbt.mipt.multiprocessor_prog.counters.counters.SynchronizedCounter;
 
 import java.util.concurrent.TimeUnit;
 
-@State(Scope.Thread)
+@State(Scope.Benchmark)
 public class Benchmarks {
 
     private ConcurrentCounter concurrentCounter = new ConcurrentCounter();
@@ -16,7 +16,7 @@ public class Benchmarks {
     private InternetCounter internetCounter = new InternetCounter();
     private LockCounter lockCounter = new LockCounter();
 
-    int iterations = 1;
+    int iterations = 100;
 
 // Synchronized //
     @Benchmark

@@ -1,0 +1,21 @@
+"Benchmark,""Mode"",""Threads"",""Samples"",""Score"",""Score Error (99,9%)"",""Unit""";;;;Количество потоков;Concurrent;Synchronized;from Internet;Lock Counter
+"ru.sbt.mipt.multiprocessor_prog.counters.Benchmarks.concurrent1,""thrpt"",1,10,""1070332,967691"",""48155,464045"",""ops/s""";;;;1;1070332,968;322559,8096;681773,4987;350819,263
+"ru.sbt.mipt.multiprocessor_prog.counters.Benchmarks.concurrent16,""thrpt"",16,10,""4032479,329550"",""38773,874952"",""ops/s""";;;;2;2149605,117;644586,3489;1362586,497;700449,1339
+"ru.sbt.mipt.multiprocessor_prog.counters.Benchmarks.concurrent2,""thrpt"",2,10,""2149605,116959"",""14280,233172"",""ops/s""";;;;4;3409747,34;1189173,223;2479260,094;1274723,077
+"ru.sbt.mipt.multiprocessor_prog.counters.Benchmarks.concurrent4,""thrpt"",4,10,""3409747,340293"",""137773,453676"",""ops/s""";;;;8;4041750,07;1916816,714;3992358,322;1944040,334
+"ru.sbt.mipt.multiprocessor_prog.counters.Benchmarks.concurrent8,""thrpt"",8,10,""4041750,069959"",""20507,028230"",""ops/s""";;;;16;4032479,33;1912643,717;3987074,358;1947776,981
+"ru.sbt.mipt.multiprocessor_prog.counters.Benchmarks.internet1,""thrpt"",1,10,""681773,498734"",""2299,147912"",""ops/s""";;;;;;;;
+"ru.sbt.mipt.multiprocessor_prog.counters.Benchmarks.internet16,""thrpt"",16,10,""3987074,357822"",""92911,986666"",""ops/s""";;;;;;;;
+"ru.sbt.mipt.multiprocessor_prog.counters.Benchmarks.internet2,""thrpt"",2,10,""1362586,496662"",""1143,944917"",""ops/s""";;;;;;;;
+"ru.sbt.mipt.multiprocessor_prog.counters.Benchmarks.internet4,""thrpt"",4,10,""2479260,094060"",""62007,462495"",""ops/s""";;;;;;;;
+"ru.sbt.mipt.multiprocessor_prog.counters.Benchmarks.internet8,""thrpt"",8,10,""3992358,322306"",""37052,991836"",""ops/s""";;;;;;;;
+"ru.sbt.mipt.multiprocessor_prog.counters.Benchmarks.locked1,""thrpt"",1,10,""350819,263046"",""168,684741"",""ops/s""";;;;;;;;
+"ru.sbt.mipt.multiprocessor_prog.counters.Benchmarks.locked16,""thrpt"",16,10,""1947776,981411"",""26886,752966"",""ops/s""";;;;;;;;
+"ru.sbt.mipt.multiprocessor_prog.counters.Benchmarks.locked2,""thrpt"",2,10,""700449,133864"",""959,718330"",""ops/s""";;;;;;;;
+"ru.sbt.mipt.multiprocessor_prog.counters.Benchmarks.locked4,""thrpt"",4,10,""1274723,076934"",""26786,806044"",""ops/s""";;;;;;;;
+"ru.sbt.mipt.multiprocessor_prog.counters.Benchmarks.locked8,""thrpt"",8,10,""1944040,334185"",""20522,987249"",""ops/s""";;;;;;;;
+"ru.sbt.mipt.multiprocessor_prog.counters.Benchmarks.syn1,""thrpt"",1,10,""322559,809587"",""284,934382"",""ops/s""";;;;;;;;
+"ru.sbt.mipt.multiprocessor_prog.counters.Benchmarks.syn16,""thrpt"",16,10,""1912643,716569"",""81552,506380"",""ops/s""";;;;;;;;
+"ru.sbt.mipt.multiprocessor_prog.counters.Benchmarks.syn2,""thrpt"",2,10,""644586,348897"",""492,318718"",""ops/s""";;;;;;;;
+"ru.sbt.mipt.multiprocessor_prog.counters.Benchmarks.syn4,""thrpt"",4,10,""1189173,223335"",""32196,201549"",""ops/s""";;;;;;;;
+"ru.sbt.mipt.multiprocessor_prog.counters.Benchmarks.syn8,""thrpt"",8,10,""1916816,713837"",""44135,454419"",""ops/s""";;;;;;;;
