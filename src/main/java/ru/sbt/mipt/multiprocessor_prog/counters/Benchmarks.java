@@ -16,7 +16,7 @@ public class Benchmarks {
     private InternetCounter internetCounter = new InternetCounter();
     private LockCounter lockCounter = new LockCounter();
 
-    int iterations = 100;
+    int iterations = 1000000;
 
 // Synchronized //
     @Benchmark
