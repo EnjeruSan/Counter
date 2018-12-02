@@ -7,18 +7,18 @@ import org.openjdk.jmh.runner.RunnerException;
 import org.openjdk.jmh.runner.options.OptionsBuilder;
 
 public class Main {
-    private static final int warmupIterations = 2;
-    private static final int measurementIterations = 10;
-    private static final int forks = 1;
+    private static final int WARMUP_ITERATIONS = 2;
+    private static final int MEASUREMENT_ITERATIONS = 10;
+    private static final int FORKS = 1;
 
 
     public static void main(String[] args) throws RunnerException {
         OptionsBuilder optionsBuilder = new OptionsBuilder();
 
-        optionsBuilder.warmupIterations(warmupIterations)
+        optionsBuilder.warmupIterations(WARMUP_ITERATIONS)
                 .include(Benchmarks.class.getSimpleName())
-                .measurementIterations(measurementIterations)
-                .forks(forks)
+                .measurementIterations(MEASUREMENT_ITERATIONS)
+                .forks(FORKS)
                 .resultFormat(ResultFormatType.CSV)
                 .result("Counters_result.csv")
                 .build()

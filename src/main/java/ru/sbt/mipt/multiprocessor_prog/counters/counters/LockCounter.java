@@ -12,7 +12,7 @@ public class LockCounter implements ICounter {
     public int getCounter(){
         counterLock.lock();
         try {
-            return counter++;
+            return ++counter;
         }
         finally {
             counterLock.unlock();
